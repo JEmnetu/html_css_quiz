@@ -1,0 +1,47 @@
+/* CSS Reset */
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+/* Utility Class */
+.container{
+    width: 60%;
+    margin: 0px auto;
+}
+ /* Sections */
+#main-heading{
+    background-color: teal;
+   text-align: center;
+   padding: 15px;
+}
+
+footer{
+    background-color: teal;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#main-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 40px;
+}
+
+/* List Styles */
+ul{
+    margin-top: 10em;
+    margin-left: 0px;
+    list-style: none;
+  
+  padding:0px 30px
+}
+ul li{
+    margin-top: 3em;
+
+}
+
