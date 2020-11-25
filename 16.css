@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+
+table{
+    border: solid 1px black;
+
+}
+
+th, td{
+    border: solid 1px black; 
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 3em auto
+}
+
+#table-img{
+    height: 100px;
+    width: 150px;
+}
